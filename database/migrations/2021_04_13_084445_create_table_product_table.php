@@ -27,7 +27,7 @@ class CreateTableProductTable extends Migration
             $table->date('enddate')->nullable();
             $table->integer('startsale')->nullable();
             $table->integer('status')->nullable();
-            $table->integer('status');
+    
             $table->integer('buyCount');
             $table->timestamps();
             $table->timestamp('deleted_at')->nullable();
